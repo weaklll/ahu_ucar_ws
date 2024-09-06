@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find ucar_nav)/launch/nav.launch">
+    </include>
+    <node pkg="ucar_nav" name="final_final_node" type="final_final_node" output="screen" />
+</launch>
